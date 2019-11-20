@@ -8,7 +8,7 @@ public class InsertionSort{
 
   public static void main(String[] args){
 
-    int[] a = {5, 7, 2, 9, 8, 1, 6, 4, 3, 0};
+    int[] a = {4, 9, 11, 3, 8, 6, 2, 7, 13, 1, 12, 5, 10};
     sort(a);
     print(a);
 
@@ -19,6 +19,8 @@ public class InsertionSort{
       for (int j = i; j > 0 && a[j] < a[j-1]; j--) {
         //if (a[j] < a[j - 1])
           swap(a, j, j-1);
+          print(a);
+          System.out.println();
       }
     }
   }
