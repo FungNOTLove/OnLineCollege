@@ -45,6 +45,9 @@ public class MergeSort{
     while(i <= mid) temp[k++] = a[i++];
     while(j <= rightBound) temp[k++] = a[j++];
 
+    for (int m = 0; m < temp.length; m++) {
+      a[leftPtr + m] = temp[m];
+    }
   }
 
   static void print(int[] a){
