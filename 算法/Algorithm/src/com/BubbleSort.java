@@ -1,7 +1,8 @@
 public class BubbleSort{
 
   //冒泡排序
-  //  找到最大的排到最后
+  //  遍历整个数组
+  //  每次两两比较,将较大的数排到后面
 
   public static void main(String[] args){
 

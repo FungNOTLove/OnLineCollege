@@ -1,5 +1,13 @@
 public class QuickSort{
 
+  /*
+    先找一个pivot(轴心点),一般选最左或者最右的那个数
+    然后左边和右边同时向中间遍历
+    ......
+
+
+  */
+
   public static void main(String[] args){
     int[] a = {7, 3, 2, 8, 1, 9, 5, 4, 6, 0};
     sort(a, 0, a.length-1);
